@@ -1,16 +1,12 @@
 target/
-!.mvn/wrapper/maven-wrapper.jar
-
-
-### IntelliJ IDEA ###
+package.json
+system.config.js
+tsconfig.json
 .idea
 *.iws
 *.iml
 *.ipr.gitignore
 README.md
-package.json
-system.config.js
-tsconfig.json
 node_modules/
 .idea/
 npm-debug.log
