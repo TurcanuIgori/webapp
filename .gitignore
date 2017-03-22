@@ -5,8 +5,7 @@ tsconfig.json
 .idea
 *.iws
 *.iml
-*.ipr.gitignore
+*.ipr
 README.md
-node_modules/
 .idea/
 npm-debug.log
