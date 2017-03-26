@@ -1,7 +1,4 @@
 target/
-package.json
-system.config.js
-tsconfig.json
 .idea
 *.iws
 *.iml
