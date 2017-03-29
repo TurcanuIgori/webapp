@@ -7,9 +7,11 @@ import {BookService} from "../services/book.service";
 
 @Component({
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  templateUrl: `app/templates/app-component.html`,
   directives: [BooksComponent],
   providers: [BookService]
 })
-export class AppComponent  { name = 'Igor'; }
+export class AppComponent  {
+  name = 'Administrator';
+}
 

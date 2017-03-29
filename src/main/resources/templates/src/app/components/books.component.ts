@@ -4,10 +4,10 @@ import {BookService} from "../services/book.service";
 import {BookDetailComponent} from "./book-detail.component";
 
 @Component({
-    selector: 'my-app',
+    selector: 'books',
     templateUrl: `app/templates/books.html`,
     styleUrls: [`app/templates/style.css`],
-  directives: [BookDetailComponent]
+    directives: [BookDetailComponent]
 })
 export class BooksComponent implements OnInit{
 
