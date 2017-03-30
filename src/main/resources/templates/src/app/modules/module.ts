@@ -5,28 +5,30 @@ import {AppComponent} from "../components/app.component";
 import {BooksComponent} from "../components/books.component";
 import {BookDetailComponent} from "../components/book-detail.component";
 import { RouterModule, Routes } from '@angular/router';
-
-const appRoutes: Routes = [
-  {
-    path: 'books',
-    component: BooksComponent,
-  },{
-    path: '',
-    redirectTo: '/books',
-    pathMatch: 'full'
-  }]
+import {AdminComponent} from "../components/admin-users.component";
+//
+// const appRoutes: Routes = [
+//   {
+//     path: 'books',
+//     component: BooksComponent,
+//   },{
+//     path: '',
+//     redirectTo: '/books',
+//     pathMatch: 'full'
+//   }]
 
 @NgModule({
     imports: [
-        RouterModule.forRoot(appRoutes),
+        // RouterModule.forRoot(appRoutes),
         BrowserModule,
         FormsModule,
     ],
     declarations: [
+      AdminComponent,
         AppComponent,
         BooksComponent,
         BookDetailComponent
     ],
-    bootstrap: [AppComponent]
+    bootstrap: [AdminComponent]
 })
-export class booksModule{}
+export class AppModule{}

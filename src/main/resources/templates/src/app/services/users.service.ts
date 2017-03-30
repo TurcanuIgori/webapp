@@ -6,7 +6,7 @@ import {users} from "./mock-users";
 
 @Injectable()
 export class UserService{
-  getBooks() {
+  getUsers() {
     return users;
   }
 }
